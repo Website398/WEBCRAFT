@@ -76,11 +76,11 @@ export default function Hero() {
           <div className="mt-5 space-y-2">
 
             <p className="text-purple-400 text-sm sm:text-base md:text-lg font-medium">
-              Hum aapke business ke liye affordable prices me modern aur premium website provide karte hai.
+              We provide affordable business websites with premium modern designs.
             </p>
 
             <p className="text-gray-500 text-xs sm:text-sm">
-              We provide affordable business websites with premium modern designs.
+              
             </p>
 
           </div>
