@@ -23,15 +23,15 @@ export default function Pricing() {
       {/* PLANS */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
 
-        {/* STARTER */}
+        {/* BASIC */}
         <div className="bg-zinc-950 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-purple-500 transition">
 
-          <h3 className="text-xl sm:text-2xl font-bold">Starter</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">Basic</h3>
           <p className="text-gray-400 text-sm mt-2">Best for small businesses</p>
 
           <p className="text-gray-500 text-xs mt-5">Approx range</p>
           <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-purple-500">
-            ₹3000
+            ₹2500 - ₹3000
           </div>
 
           <ul className="mt-6 space-y-3 text-gray-300 text-sm sm:text-base">
@@ -49,14 +49,14 @@ export default function Pricing() {
           </a>
         </div>
 
-        {/* BUSINESS */}
+        {/* PROFESSIONAL */}
         <div className="bg-purple-600 rounded-2xl p-6 sm:p-8 shadow-2xl shadow-purple-500/30">
 
           <div className="bg-white text-black inline-block px-3 py-1 rounded-full text-xs sm:text-sm font-semibold mb-4">
             MOST POPULAR
           </div>
 
-          <h3 className="text-xl sm:text-2xl font-bold">Business</h3>
+          <h3 className="text-xl sm:text-2xl font-bold">Professional</h3>
           <p className="text-purple-100 text-sm mt-2">Perfect for growing businesses</p>
 
           <p className="text-purple-100 text-xs mt-5">Approx range</p>
@@ -112,9 +112,6 @@ export default function Pricing() {
         <p className="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto">
           Choose a plan and fill the form. We will contact you and start your website development.
         </p>
-
-        
-      
       </div>
 
     </section>
